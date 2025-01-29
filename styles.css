@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 ul {
   list-style: none;
@@ -7,18 +8,54 @@ ul {
 a {
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #4d5ae5;
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #4d5ae5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/** ==============HEADER================ */
+.header {
+}
+.header-navigation {
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo-color {
+.header-logo span {
   color: #2e2f42;
 }
+.header-menu-list {
+}
+.header-menu-item {
+}
+
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -26,21 +63,32 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-address-menu-link {
-  font-weight: 400;
+.header-address {
+}
+.header-contacts-list {
+}
+.header-contacts-item {
+}
+
+.header-contacts-link {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+/** ================================== */
+/** ==============HERO================ */
+.hero {
+}
+
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  /* REMOVE background-color after created wrapper */
+  /*TODO REMOVE background-color after created wrapper */
   background-color: #2e2f42;
 }
 .hero-order-btn {
@@ -52,27 +100,43 @@ a {
   /* REMOVE background-color after created wrapper */
   background-color: #4d5ae5;
 }
+/** ================================== */
+/** ==============FEATURES================ */
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .features-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+/** ================================== */
+/** ==============TEAM================ */
+.team {
+}
+
 .team-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-avatar {
 }
 .team-list-name {
   font-weight: 500;
@@ -80,58 +144,67 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 .team-list-profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
+/** ================================== */
+/** ==============PORTFOLIO================ */
+.portfolio {
+}
+
 .portfolio-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-item-image {
 }
 .portfolio-list-item-caption {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .portfolio-list-item-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+/** ================================== */
+/** ==============FOOTER================ */
+.footer {
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-logo-color {
+.footer-logo span {
   color: #f4f4fd;
-  /* REMOVE background-color after created wrapper */
+  /*TODO REMOVE background-color after created wrapper */
   background-color: #2e2f42;
 }
 .footer-company-slogan {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  /* REMOVE background-color after created wrapper */
+  /*TODO REMOVE background-color after created wrapper */
   background-color: #2e2f42;
 }
