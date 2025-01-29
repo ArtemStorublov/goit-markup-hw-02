@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -8,16 +9,18 @@ ul {
 a {
   text-decoration: none;
 }
-button {
+button:hover,
+button:focus {
   cursor: pointer;
+  background-color: #404bbf;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .visually-hidden {
@@ -64,6 +67,7 @@ button {
   color: #2e2f42;
 }
 .header-address {
+  font-style: normal;
 }
 .header-contacts-list {
 }
@@ -71,15 +75,16 @@ button {
 }
 
 .header-contacts-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 /** ================================== */
 /** ==============HERO================ */
 .hero {
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -88,16 +93,15 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  /*TODO REMOVE background-color after created wrapper */
-  background-color: #2e2f42;
 }
+
 .hero-order-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /* REMOVE background-color after created wrapper */
+  /*todo REMOVE background-color after created wrapper */
   background-color: #4d5ae5;
 }
 /** ================================== */
@@ -114,16 +118,17 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .features-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /** ================================== */
 /** ==============TEAM================ */
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -131,10 +136,13 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-list-avatar {
 }
@@ -144,13 +152,13 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-list-profession {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 /** ================================== */
 /** ==============PORTFOLIO================ */
@@ -162,6 +170,8 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -174,16 +184,17 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-list-item-desc {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 /** ================================== */
 /** ==============FOOTER================ */
 .footer {
+  background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -197,14 +208,10 @@ button {
 }
 .footer-logo span {
   color: #f4f4fd;
-  /*TODO REMOVE background-color after created wrapper */
-  background-color: #2e2f42;
 }
 .footer-company-slogan {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  /*TODO REMOVE background-color after created wrapper */
-  background-color: #2e2f42;
 }
